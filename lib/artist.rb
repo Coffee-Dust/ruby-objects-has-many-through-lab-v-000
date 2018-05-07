@@ -9,7 +9,10 @@ class Artist
   def add_song(song)
     song.artist = self if !song.artist.is_a?(Artist)
     self.songs << song
+  end
 
+  def genres
+    self.songs.collect {|song| song.genre }
   end
 
 end
