@@ -7,6 +7,6 @@ class Genre
   end
 
   def artists
-    @artists = 
+    @artists = @songs.collect {|song| song.artist }
   end
 end
