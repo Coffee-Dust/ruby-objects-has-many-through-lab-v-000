@@ -1,1 +1,4 @@
 class Artist
+
+
+end
