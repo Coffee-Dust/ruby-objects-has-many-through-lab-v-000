@@ -10,4 +10,8 @@ class Doctor
     appt.doctor = self if !appt.doctor.is_a?(Doctor)
     @appointments << appt
   end
+
+  def patient
+
+  end
 end
