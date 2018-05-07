@@ -10,5 +10,6 @@ class Patient
     appt.patient = self if !appt.patient.is_a?(Patient)
   end
 
-  def appointments
+  def doctors
+    self.appointments.collect {|appt| appt.doctor}
 end
