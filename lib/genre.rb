@@ -7,6 +7,6 @@ class Genre
   end
 
   def artists
-
+    @artists = 
   end
 end
