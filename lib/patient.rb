@@ -7,6 +7,6 @@ class Patient
   end
 
   def add_appointment(appt)
-    
+    appt.patient = self
   end
 end
