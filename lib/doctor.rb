@@ -7,7 +7,7 @@ class Doctor
   end
 
   def add_appointment(appt)
-    appt.doctor
+    appt.doctor = self
     @appointments << appt if appt is_a? Appointment
   end
 end
