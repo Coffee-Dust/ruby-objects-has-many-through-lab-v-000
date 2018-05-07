@@ -8,6 +8,7 @@ class Patient
 
   def add_appointment(appt)
     appt.patient = self if !appt.patient.is_a?(Patient)
+    self.appointments << appt
   end
 
   def doctors
